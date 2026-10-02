@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3eff9;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.game {
+    background: white;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+}
+
+h1 {
+    color: #5b2383;
+}
+
+p {
+    color: #555;
+}
+
+select {
+    padding: 10px;
+    width: 220px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #5b2383;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7637a8;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7637a8;
+}
+
+#restartButton {
+    background: #218c49;
+}
+
+#guessHistory {
+    color: #555;
+    word-spacing: 8px;
+}
